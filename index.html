@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+	<html>
+	  <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width">
+	    <title>Grade Calculater</title>
+	    <ul style="list-style-type:circle;">
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+	</head>
 
+	  <body>
+	    <script src="script.js"></script>
+	    <div id="classinfo">
+	      <h1> CSE 120 Introduction to the World of Programming </h1>
+	      <h2> Yeva Melikyan </h2>
+      <tr>
+        <th>Assignment</th>
+        <th>Percentage</th>
+
+      </tr> 
+      <tr>
+	          <table id="studentGrades">
+     
+ <ul>
+	       <li>Homework - <span class="percent" id="HomeworkPercent">25</span>%</li>
+	       <li>Quiz 1 - <span class="percent" id="Quiz1Percent">25</span>%</li>
+	       <li>Quiz 2 - <span class="percent" id="Quiz2Percent">30</span>%</li>
+	       <li>Participation - <span class="percent" id="ParticipationPercent">15</span>%</li>
+         <li>Attendance - <span class="percent" id="AttendancePercent">5</span>%</li>
+	     </ul>     
+	      <h4>Calculate My Grade</h4>
+	      <ul style="list-style-type:circle;">
+	        <li>Homework-<input type="text"
+	        id="HomeworkGrade"></li>
+	        <li>Quiz 1-<input type="text"
+	        id="Quiz1Grade"></li>
+	        <li>Quiz 2-<input type="text"
+	        id="Quiz2Grade"></li>
+	        <li>Participation-<input type="text"
+	        id="ParticipationGrade"></li>
+	        <li>Attendance-<input type="text"
+	        id="AttendanceGrade"></li>
+	      </ul>
+	      <button onclick="calculateGrade()"> Calculate Current Grade </button>
+	      <h4> My Grade is <span id="currentGrade"></span>.</h4>
+	    </div>
+	
+
+
+	  </body>
+	</html>	    
