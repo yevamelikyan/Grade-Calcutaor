@@ -11,7 +11,7 @@
   #header {
   background-color:rgb(125, 84, 163);
   color: white;
-  padding: 0px;
+  padding: 10px;
   text-align: left;
   font-weight: bolder;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -24,4 +24,6 @@
  color: purple;
  text-align: end
  }
+
+
 
