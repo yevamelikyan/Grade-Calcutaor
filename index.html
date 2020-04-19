@@ -17,15 +17,15 @@
 	      <h2> Yeva Melikyan </h2>
       <tr>
         <div id="header">
-        <th>Assignment</th>
+        <th>Assignment</th> 
         <th>Percentage</th>
+    
 
       </tr> 
       <tr>
 	
      
  <ul>
-      
 	       <li>Homework - <span class="percent" id="HomeworkPercent">25</span>%</li>
 	       <li>Quiz 1 - <span class="percent" id="Quiz1Percent">25</span>%</li>
 	       <li>Quiz 2 - <span class="percent" id="Quiz2Percent">30</span>%</li>
@@ -34,21 +34,52 @@
 	     </ul>     
 	      <h4>Calculate My Grade</h4>
 	      <ul style="list-style-type:circle;">
-	        <li>Homework-<input type="text" size="4"
-	        id="HomeworkGrade"></li> 
-	        <li>Quiz 1-<input type="text" size= "4"
-	        id="Quiz1Grade"></li>
-	        <li>Quiz 2-<input type="text" size= "4"
-	        id="Quiz2Grade"></li>
-	        <li>Participation-<input type="text" size= "4"
-	        id="ParticipationGrade"></li>
-	        <li>Attendance-<input type="text" size= "4"
-	        id="AttendanceGrade"></li>
-	      </ul>
-	      <button onclick="calculateGrade()"> Calculate Current Grade </button>
-	      <h4> My Grade is <span id="currentGrade"></span>
+	        <tr>
+         <li>Homework -</td>
+         <td><input type="text" size= "4"
+         id="HomeworkGrade"  value="" onkeyup="checkGrade(event)"></td>
+         </tr>
+
+         <tr>
+         <li>Quiz 1 -</td>
+         <td><input type="text" size= "4"
+         id="Quiz1Grade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr>
+
+         <tr>
+         <li>Quiz 2 -</td>
+         <td><input type="text" size= "4"
+         id="Quiz2Grade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr> 
+         
+         <tr>
+         <li>Participation -</td>
+         <td><input type="text" size= "4"
+         id="ParticipationGrade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr>
+
+         <tr>
+         <li>Attendance -</td>
+         <td><input type="text" size= "4"
+         id="AttendanceGrade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr>
+
+	        
+	        
+	      
+
+          </ul>
+	        <button onclick="calculateGrade()"> Calculate Current Grade </button>
+	        <h4> My Grade is <span id="currentGrade"></span>
+          
+
+    
 	
 
 
 	  </body>
-	</html>	    
+	</html>	   
